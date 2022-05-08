@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        h2 {
+            padding: 20px;
+            text-align: center;
+            letter-spacing: 1px;
+            font-family: cursive;
+        }
+        
+        div {
+            height: 150px;
+            width: 150px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        
+        #flex-start h2+div,
+        #center h2+div,
+        #flex-end h2+div,
+        #space-evenly h2+div,
+        #space-around h2+div,
+        #space-between h2+div {
+            height: 300px;
+            width: 80%;
+            margin: auto;
+            background-color: #E9E5D6;
+            border: 2px solid black;
+        }
+        
+        #flex-start div {
+            align-content: flex-start;
+        }
+        
+        #center div {
+            align-content: center;
+        }
+        
+        #flex-end div {
+            align-content: flex-end;
+        }
+        
+        #space-evenly div {
+            align-content: space-evenly;
+        }
+        
+        #space-around div {
+            align-content: space-around;
+        }
+        
+        #space-between div {
+            align-content: space-between;
+        }
+button{
+            background-color: #E9E5D6;
+            border: 2px solid black;
+            width: 150px;
+            height: 50px;
+            font-size: 20px;
+            font-family: cursive;
+            border-radius: 20px;
+            margin: 50px;
+            margin-left: 45%;
+        }
+        a:link{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+<body>
+    <h1 style="text-align: center; color: orangered;"> <u> Align-Content </u></h1>
+    <section id="flex-start">
+        <h2>align-content : flex-start ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="center">
+        <h2>align-content : center ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="flex-end">
+        <h2>align-content : flex-end ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="space-evenly">
+        <h2>align-content : space-evenly ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="space-around">
+        <h2>align-content : space-around ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="space-between">
+        <h2>align-content : space-between ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+ <button> <a href="index.html">Main Menu</a> </button>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6de590ecdd0d2e29',m:'KM7mDIbcfW90y.bojaFm8z0s7nazebUgMjLK0lpyGmg-1645001822-0-AbSg8aI204AnUfB0Dsf5CzwwqBfX8mZc8xUSbjMhnIfhXrWZmQDtoMUrurfVZU38id5Ujq2MnZc5OgRDWuXD555uo8Yj6y+HBZiivaVrn8ruGEUif5CXLSszalhK2zzskDwxiaTOv48lmThKWWPWBziITSvgzDupYfyNgwLIShH6rGH/RRwl+kKb20cjn39GomMldSL9NiKKZtobmzs05Cs=',s:[0xa37ca88d06,0x674583782c],}})();</script></body>
+
+</html>

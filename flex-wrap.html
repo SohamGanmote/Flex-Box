@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        h2 {
+            padding: 20px;
+            text-align: center;
+            letter-spacing: 1px;
+            font-family: cursive;
+        }
+        
+        div {
+            height: 150px;
+            width: 150px;
+            margin: auto 0px;
+        }
+        
+        #wrap h2+div,
+        #wrap-reverse h2+div {
+            height: 300px;
+            width: 80%;
+            margin: auto;
+            background-color: #E9E5D6;
+            border: 2px solid black;
+        }
+        
+        #wrap div {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        
+        #wrap-reverse div {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap-reverse;
+        }
+
+        button{
+            background-color: #E9E5D6;
+            border: 2px solid black;
+            width: 150px;
+            height: 50px;
+            font-size: 20px;
+            font-family: cursive;
+            border-radius: 20px;
+            margin: 50px;
+            margin-left: 45%;
+        }
+        a:link{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center; color: orangered;"> <u> Flex-Wrap </u></h1>
+    <section id="wrap">
+        <h2>flex-wrap : wrap ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="wrap-reverse">
+        <h2>flex-wrap : wrap-reverse ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+     <button> <a href="index.html">Main Menu</a> </button>
+</body>
+
+</html>

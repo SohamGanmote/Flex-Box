@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        h2 {
+            padding: 20px;
+            text-align: center;
+            letter-spacing: 1px;
+            font-family: cursive;
+        }
+        
+        div {
+            height: 150px;
+            width: 150px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        #flex-start h2+div,
+        #center h2+div,
+        #flex-end h2+div {
+            height: 200px;
+            width: 80%;
+            margin: auto;
+            background-color: #E9E5D6;
+            border: 2px solid black;
+        }
+        
+        #flex-start div:nth-of-type(3) {
+            align-self: flex-start;
+        }
+        
+        #flex-end div:nth-of-type(3) {
+            align-self: flex-end;
+        }
+        
+        #center div:nth-of-type(3) {
+            align-items: center;
+        }
+button{
+            background-color: #E9E5D6;
+            border: 2px solid black;
+            width: 150px;
+            height: 50px;
+            font-size: 20px;
+            font-family: cursive;
+            border-radius: 20px;
+            margin: 50px;
+            margin-left: 45%;
+        }
+        a:link{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+<body>
+    <h1 style="text-align: center; color: orangered;"> <u> Align-Self </u></h1>
+    <section id="flex-start">
+        <h2>align-self : flex-start ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="center">
+        <h2>align-self : center ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="flex-end">
+        <h2>align-self : flex-end ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+ <button> <a href="index.html">Main Menu</a> </button>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6de591185d862e29',m:'vQ5SHBpt0j173KfugYn2D1NfwbWyY.2jzJdvae93Gjc-1645001829-0-AZHOWY06Qe4YattdtVuLmlVQHhYSENM+0P8r3qSF9M0n99GuNFRmoLHIN1kTt6+N9gIO0NVrSt15lGPVaCWWb5xX3x+7+YHrtI+HiLtCiaryi8xbJSGdx4BZvalW1CH5/PzInBOKBhSbul9/UXavC2vUW8sOckSmj3+jPXUrzKVJkRZm3AkSWonT+EJcUoUCEla+ka6CiXNwJSJgSAdFZRk=',s:[0xbf0154ccdb,0x7ab3a45c42],}})();</script></body>
+
+</html>

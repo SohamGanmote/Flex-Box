@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        h2 {
+            padding: 20px;
+            text-align: center;
+            letter-spacing: 1px;
+            font-family: cursive;
+        }
+        
+        div {
+            height: 150px;
+            width: 150px;
+        }
+        
+        #flex-start h2+div,
+        #flex-end h2+div,
+        #center h2+div {
+            height: 200px;
+            width: 80%;
+            margin: auto;
+            background-color: #E9E5D6;
+            border: 2px solid black;
+        }
+        
+        #flex-start div {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+        }
+        
+        #flex-end div {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-end;
+        }
+        
+        #center div {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+button{
+            background-color: #E9E5D6;
+            border: 2px solid black;
+            width: 150px;
+            height: 50px;
+            font-size: 20px;
+            font-family: cursive;
+            border-radius: 20px;
+            margin: 50px;
+            margin-left: 45%;
+        }
+        a:link{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+<body>
+    <h1 style="text-align: center; color: orangered;"> <u> Align-Items </u></h1>
+    <section id="flex-start">
+        <h2>align-items : flex-start ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="center">
+        <h2>align-items : center ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="flex-end">
+        <h2>align-items : flex-end ;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+  <button> <a href="index.html">Main Menu</a> </button>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6de590b7bef22e29',m:'DJucVn2jHyIC76Gr9uol8448j9XBJwX0HKYjtoKNwBw-1645001814-0-AS6MNZxEXq1aVffGMtQhr/kWbVeBomLln742AEum2a25XsmOZgF0JqVtxNi08T5VI6hCmccdAcO5IitCTm1nygThpgB/ia0aPKHWLQ7QtJXWfeuafuXHQs9FflnT3Hpna7sf3aNxEi6rgCsyw911ZaovB+awZ8fnjmTbz7F26q76yuw7fo10o7JCntzNJ8mPP3Mecwlu2tZAuQPPzB+rU8w=',s:[0x2ec1f124db,0x31c55d4d53],}})();</script></body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        h2 {
+            padding: 20px;
+            text-align: center;
+            letter-spacing: 1px;
+            font-family: cursive;
+        }
+        
+        div {
+            margin: auto;
+            height: 150px;
+            width: 150px;
+        }
+        
+        #row h2+div,
+        #column h2+div,
+        #row-reverse h2+div,
+        #column-reverse h2+div {
+            height: 200px;
+            width: 80%;
+            margin: auto;
+            background-color: #E9E5D6;
+            border: 2px solid black;
+        }
+        
+        #row div {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        #row-reverse div {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        
+        #column div {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #column-reverse div {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+button{
+            background-color: #E9E5D6;
+            border: 2px solid black;
+            width: 150px;
+            height: 50px;
+            font-size: 20px;
+            font-family: cursive;
+            border-radius: 20px;
+            margin: 50px;
+            margin-left: 45%;
+        }
+        a:link{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+<body>
+    <h1 style="text-align: center; color: orangered;"> <u> Flex-Diretion </u></h1>
+    <section id="row">
+        <h2>flex-Diretion : row;</h2>
+        <div id="contaner">
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="row-reverse">
+        <h2>flex-Diretion : row-reverse;</h2>
+        <div>
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="column">
+        <h2>flex-Diretion : column;</h2>
+        <div>
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+    <section id="column-reverse">
+        <h2>flex-Diretion : column-reverse;</h2>
+        <div>
+            <div style="background-color: #470D21;"></div>
+            <div style="background-color: #694E4E;"></div>
+            <div style="background-color: #886F6F;"></div>
+            <div style="background-color: #C1A3A3;"></div>
+            <div style="background-color: #F3C5C5;"></div>
+        </div>
+    </section>
+      <button> <a href="index.html">Main Menu</a> </button>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6de58fe10b0c84dd',m:'psUaPRI8_libF2PuiOYGWG8Mdh874P9Ubs0Cp3Kx08A-1645001779-0-AZ0NvqGA10RwbAAUMaCf3LC6nyD4HYXTyreGy5Kdy32smYBmOP/6Dewqxw2oW6rTFsTO9NZEezakrP2h47HiCEzgcD1gAf43gmDUSrO2jmpVkph8L/N9bZs48QKtF6IehWlAUsTlAgVw8cSlQQm1tgDlbE67rDcz7OZp6wXUTuPvXwS71HC4BrN9FkZ++gHmlRLLhfrQZXmGiWbSvHeGzcs=',s:[0xc03c8caaba,0xc699ad6dc8],}})();</script></body>
+
+</html>
